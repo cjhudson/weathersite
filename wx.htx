@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Latham Weather</title>
+<link rel="stylesheet" type="text/css" href="../grids2.css" />
+<link rel="stylesheet" type="text/css" href="../cssmenu.css" />
+<link rel="stylesheet" type="text/css" href="../styles.css" />
+
+</head>
+<body>
+<div id="wrap">
+	<div id="hd">
+		<div id="top">
+			<div class="topnav">
+			</div>
+			<h1>Latham Weather</h1><br />
+			<h2>"A rainy day is the perfect time for a walk in the woods" - Rachel Carson</h2>
+		</div>
+		<div class="menu">
+
+<ul>
+<li><a href="http://weather.hudsondarling.net/index.htm">Home<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/about.htm">About this website</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">At a Glance<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/international.htm">Summary</a></li>
+	<li><a href="http://weather.hudsondarling.net/wx.htm">Graphs and Dials</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Details<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/details.htm">Today</a></li>
+	<li><a href="http://weather.hudsondarling.net/daily.htm">YTD</a></li>
+	<li><a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=I90580966">Historical</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">ACT Weather<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/actforecast.htm">ACT Forecast</a></li>
+	<li><a href="http://weather.hudsondarling.net/actradar.htm">ACT Radar</a></li>
+	<li><a href="#"></a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Links<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="#">station 1</a></li>
+	<li><a href="#">station 2</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+</div>
+</div>
+
+<div>
+<table id="weather">
+	<thead>
+	    <tr>
+	      <th id="weathertop" colspan="4">^wslocation^ Current Weather Conditions [Select Refresh to Update]</th>
+	    </tr>
+	</thead>
+	<tbody>
+    		<tr>
+	    		<td id="weather" colspan="2"><img src="broadcast.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws742.jpg"/></td>
+	    		<td id="weather" ><img src="vws740.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" colspan="2"><img src="vws1771.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws741.jpg"/></td>
+	    		<td id="weather" ><img src="vws739.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" colspan="2"><img src="vws1770.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws743.jpg"/></td>
+	    		<td id="weather" ><br><img src="vws1022.jpg"/><img src="vws907.jpg"/><br>
+	    		<img src="vws1026.jpg"/><img src="vws1027.jpg"/>
+	    		</td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws744.jpg"/></td>
+	    		<td id="weather" ><img src="vws1739.jpg"/><img src="vws1738.jpg"/><img src="vws1746.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws737.jpg"/></td>
+	    		<td id="weather" ><img src="vws1325.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws1765.jpg"/></td>
+	    		<td id="weather" ><img src="vws867.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws1767.jpg"/></td>
+	    		<td id="weather" ><img src="vws1177.jpg"/></td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weather" ><img src="vws590.jpg"/></td>
+	    		<td id="weather" ><img src="vws901.jpg"/><br><img src="vws1007.jpg"/>
+	    		</td>
+	    	</tr>
+	    	<tr>
+	    		<td id="weatherfooter" colspan="2"><a href="http://www.ambientsw.com">Updated Automatically by Ambient Software's Virtual Weather Station&nbsp; ^vervws^</a><br>
+	    		<u>Disclaimer:</u> Never make important decisions based on this information or any weather information obtained from the Internet</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<div id="footer">
+		<div class="footnav">
+		</div>
+		<div class="copyright">
+		<p>&copy; 2009 <a href="http://www.hudsondarling.net">HudsonDarling.net</a> | Original template by <a href="http://demusdesign.com">DemusDesign</a></p>
+		</div>
+</div>
+</body>
+</html>
