@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Latham ACT Virtual Weather Station Daily Tabular Data</title>
+<meta name="Keywords" content="weather stations, weather station, weather radio, gps, weather equipment, weather instrument, weathervane, oregon scientific, lacrosse technology, davis instruments, vantage pro, meteorology, wireless thermometer, barometer, wind, rain gauge, gauges, atomic clock, watch, digital, midland, kestrel" />
+<meta name="Description" content="weather station equipment, weather radios, weathervanes, gps and instruments from Oregon Scientific, La Crosse Technology, Davis Instruments, Kestrel Instruments." />
+<meta name="Abstract" content="Oregon Scientific, La Crosse Technology, Davis Instruments, Kestrel Instruments electronics" />
+<link rel="stylesheet" type="text/css" href="../grids2.css" />
+<link rel="stylesheet" type="text/css" href="../cssmenu.css" />
+<link rel="stylesheet" type="text/css" href="../styles.css" />
+</head>
+
+<body>
+<body>
+<div id="wrap">
+	<div id="hd">
+		<div id="top">
+			<div class="topnav">
+			</div>
+			<h1>Latham Weather</h1><br />
+			<h2>"A rainy day is the perfect time for a walk in the woods" - Rachel Carson</h2>
+		</div>
+		<div class="menu">
+
+<ul>
+<li><a href="http://weather.hudsondarling.net/index.htm">Home<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/about.htm">About this website</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">At a Glance<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/international.htm">Summary</a></li>
+	<li><a href="http://weather.hudsondarling.net/wx.htm">Graphs and Dials</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Details<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/details.htm">Today</a></li>
+	<li><a href="http://weather.hudsondarling.net/daily.htm">YTD</a></li>
+	<li><a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=I90580966">Historical</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">ACT Weather<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/actforecast.htm">ACT Forecast</a></li>
+	<li><a href="http://weather.hudsondarling.net/actradar.htm">ACT Radar</a></li>
+	<li><a href="#"></a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Links<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="#">station 1</a></li>
+	<li><a href="#">station 2</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+</div>
+</div>
+<div>
+<table>
+
+<p align="center"><strong><big><big>Daily Reports </big></big></strong>
+<font color="#808080" face="Arial" size="1">[Select Refresh to Update]
+</font>
+</p>
+
+<hr>
+
+<p align="center"><b>NOAA Yearly Report</b></p>
+
+<p><font size="3" face="Courier New">^default_dir\data\noaa\noaayr.txt^</font></p>
+
+<hr>
+
+<p align="center"><b>NOAA Monthly Report</b></p>
+
+<p><font face="Courier New" size="3">^default_dir\data\noaa\noaamo.txt^</font></p>
+
+<hr>
+
+<p align="center"><b>Yearly Archive Report</b></p>
+
+<p><font face="Courier New" size="3">^default_dir\data\archive\yearly\yearlyarc.txt^</font></p>
+
+<hr>
+
+<p align="center"><b>Monthly Archive Report</b></p>
+
+<p><font face="Courier New" size="3">^default_dir\data\archive\monthly\monthlyarc.txt^</font></p>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<p align="center"><b>Daily Archive Report</b></p>
+
+<p><font face="Courier New" size="3">^default_dir\data\archive\daily\dailyarc.txt^</font></p>
+
+<hr>
+
+<p align="center"><b>Daily Summary Report</b></p>
+
+<p><font face="Courier New" size="3">^default_dir\data\summary\daysum.txt^</font></p>
+
+<hr>
+<p align="center"><b>Today's&nbsp; Data File</b></p>
+
+<p><font face="Courier New" size="3">^default_dir\data\daily\daily.txt^</font></p>
+
+<p>&nbsp;</p>
+
+<hr>
+<p align="center"><b>Yesterday's Data File</b></p>
+
+<p><font face="Courier New" size="3">^default_dir\data\daily\daily_2.txt^</font></p>
+
+<p align="center"><a href="http://www.ambientsw.com"><font size="1">Updated Automatically by Ambient Weather's
+Virtual Weather Station&nbsp; ^vervws^<br>
+</font></a><font face="Arial" size="2" color="gray">&copy; All rights
+reserved. Unauthorized duplication or distribution is prohibited</font><br>
+<font face="Arial" color="gray" size="1">Never base important decisions on this
+or any weather information obtained from the Internet</font>
+<br>
+</p>
+</div>
+<div id="footer">
+		<div class="footnav">
+		</div>
+		<div class="copyright">
+		<p>&copy; 2009 <a href="http://www.hudsondarling.net">HudsonDarling.net</a> | Original template by <a href="http://demusdesign.com">DemusDesign</a></p>
+		</div>
+</div>
+</body>
+</html>
