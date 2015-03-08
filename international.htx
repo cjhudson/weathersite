@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Latham ACT Virtual Weather Station Daily Tabular Data</title>
+<meta name="Keywords" content="weather stations, weather station, weather radio, gps, weather equipment, weather instrument, weathervane, oregon scientific, lacrosse technology, davis instruments, vantage pro, meteorology, wireless thermometer, barometer, wind, rain gauge, gauges, atomic clock, watch, digital, midland, kestrel" />
+<meta name="Description" content="weather station equipment, weather radios, weathervanes, gps and instruments from Oregon Scientific, La Crosse Technology, Davis Instruments, Kestrel Instruments." />
+<meta name="Abstract" content="Oregon Scientific, La Crosse Technology, Davis Instruments, Kestrel Instruments electronics" />
+<link rel="stylesheet" type="text/css" href="../grids2.css" />
+<link rel="stylesheet" type="text/css" href="../cssmenu.css" />
+<link rel="stylesheet" type="text/css" href="../styles.css" />
+</head>
+
+<body>
+<div id="wrap">
+	<div id="hd">
+		<div id="top">
+			<h1>Latham Weather</h1><br />
+             		<h2>"A rainy day is the perfect time for a walk in the woods" - Rachel Carson</h2>
+		</div>
+		<div class="menu">
+
+<ul>
+<li><a href="http://weather.hudsondarling.net/index.htm">Home<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/about.htm">About this website</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">At a Glance<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/international.htm">Summary</a></li>
+	<li><a href="http://weather.hudsondarling.net/wx.htm">Graphs and Dials</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Details<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/details.htm">Today</a></li>
+	<li><a href="http://weather.hudsondarling.net/daily.htm">YTD</a></li>
+	<li><a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=I90580966">Historical</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">ACT Weather<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/actforecast.htm">ACT Forecast</a></li>
+	<li><a href="http://weather.hudsondarling.net/actradar.htm">ACT Radar</a></li>
+	<li><a href="#"></a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Links<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="#">station 1</a></li>
+	<li><a href="#">station 2</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+</div>
+</div>
+
+<div>
+  <table id="weather">
+    <thead>
+	    <tr>
+	      <th id="weathertop" colspan="4">^wslocation^ Current Weather Conditions [Select Refresh to Update]</th>
+	    </tr>
+    </thead>
+    <tbody>
+	<tr>
+        	<td id="weather" style="text-align:left;" colspan="2">Last updated: ^vst143^ on ^vst142^</td>
+        	<td id="weather" colspan="2"><a href="http://www.mapquest.com/maps/map.adp?latlongtype=decimal&amp;latitude=^wslat^&amp;longitude=^wslong^">Weather station location</a></td>
+        
+        </tr>
+        <tr>
+        	<td id="weathercurrent" rowspan="2"><img height="44" alt="Clear" src="http://icons.wunderground.com/graphics/conds/^climate_icon1^.GIF" width="44"/> <br>^climate_cconds1^</td>
+		<td id="weathercurrent" rowspan="2" style="font-size:1.5em;">Current Temp<br>^vxv007^&deg;</td>
+               	<td id="weathertitle">High:</td>
+               	<td id="weathervalue">^vhi007^&deg; (^vht007^)</td>
+        </tr>
+        <tr>
+        	<td id="weathertitle">Low:</td>
+        	<td id="weathervalue">^vlo007^&deg; (^vlt007^)</td>
+        </tr>
+        <tr>
+        	<td id="weathertitle">Wind:</td>
+        	<td id="weathervalue">^vxv002^ ^uni002^ from the ^vxv001^</td>
+        	<td id="weathertitle">Gust:</td>
+        	<td id="weathervalue">^vxv003^ ^uni003^</td>
+        </tr>
+        <tr>
+        	<td id="weathertitle">Today's High Wind:</td>
+		<td id="weathervalue">^vhi002^ ^uni002^(^vht002^)</td>
+	 	<td id="weathertitle">Humidity:</td>
+         	<td id="weathervalue">^vxv005^%</td>
+        </tr>
+	<tr>
+         	<td id="weathertitle">Pressure:</td>
+         	<td id="weathervalue">^vxv023^ ^uni023^ (^vst139^)</td>
+        	<td id="weathertitle">Pressure Rate:</td>
+		<td id="weathervalue">^vvr023^ ^uni023^/hr</td>
+	
+        </tr>
+        <tr>
+		<td id="weathertitle">Dew Point:</td>
+		<td id="weathervalue">^vxv022^&deg;</td>
+		<td id="weathertitle">Wind Chill:</td>
+        	<td id="weathervalue">^vxv019^&deg;</td>
+        </tr>
+	<tr>
+        	<td id="weathertitle">Heat Index (feels like):</td>
+        	<td id="weathervalue">^vxv021^&deg;</td>
+        	<td id="weathertitle">Comfort Level:</td>
+        	<td id="weathervalue">^vst137^</td>
+        </tr>
+        <tr>
+        	<td id="weathertitle">Temperature Rate:</td>
+        	<td id="weathervalue">^vvr007^&deg;/hr</td>
+        	<td id="weathertitle"></td>
+       		<td id="weathervalue"></td>
+        </tr>
+        <tr>
+	       	<th id="weatherhead" colspan="4">Weather Map</th>
+      	</tr>
+	<tr>
+      		<td id="weathercurrent" colspan="4">
+		<img src="http://maps.wunderground.com/data/images/au_st.gif">
+		</td>
+        </tr>
+        <tr id="weather">
+        	<th id="weatherhead" colspan="4">5 Day Forecast</th>
+	</tr>
+        <tr>
+        	<td id="weather" colspan="4">
+        	<table style="font-size:1em;width:75%">
+        		<tr>
+                		<td id="weather">^forecast_day1_1^</td>
+                		<td id="weather">^forecast_day1_2^</td>
+                  		<td id="weather">^forecast_day1_3^</td>
+                  		<td id="weather">^forecast_day1_4^</td>
+                  		<td id="weather">^forecast_day1_5^</td>
+                	</tr>
+                	<tr>
+                  		<td id="weather"><img height="44" alt="Clear" src="http://icons.wunderground.com/graphics/conds/^forecast_icon1_1^.GIF" width="44" /></td>
+                  		<td id="weather"><img height="44" alt="Clear" src="http://icons.wunderground.com/graphics/conds/^forecast_icon1_2^.GIF" width="44" /></td>
+                  		<td id="weather"><img height="44" alt="Clear" src="http://icons.wunderground.com/graphics/conds/^forecast_icon1_3^.GIF" width="44" /></td>
+                  		<td id="weather"><img height="44" alt="Clear" src="http://icons.wunderground.com/graphics/conds/^forecast_icon1_4^.GIF" width="44" /></td>
+                  		<td id="weather"><img height="44" alt="Clear" src="http://icons.wunderground.com/graphics/conds/^forecast_icon1_5^.GIF" width="44" /></td>
+                	</tr>
+                	<tr>
+                  		<td id="weather">^forecast_conds1_1^</td>
+                  		<td id="weather">^forecast_conds1_2^</td>
+                  		<td id="weather">^forecast_conds1_3^</td>
+                  		<td id="weather">^forecast_conds1_4^</td>
+                  		<td id="weather">^forecast_conds1_5^</td>
+                	</tr>
+                	<tr>
+                  		<td id="weather"><b>^forecast_hi1_1^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_hi1_2^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_hi1_3^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_hi1_4^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_hi1_5^&deg;</b></td>
+                	</tr>
+                	<tr>
+                  		<td id="weather"><b>^forecast_lo1_1^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_lo1_2^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_lo1_3^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_lo1_4^&deg;</b></td>
+                  		<td id="weather"><b>^forecast_lo1_5^&deg;</b></td>
+                	</tr>
+              	</table>
+          	</td>
+          		</tr>
+        	</td>
+        </tr>
+      	<tr>
+        	<th id="weatherhead" colspan="4">Almanac</th>
+        </tr>
+        <tr>
+               	<td id="weathertitle">Sunrise:</td>
+               	<td id="weathervalue">^vst144^</td>
+		<td id="weathertitle">Moonrise:</td>
+	      	<td id="weathervalue">^vst146^</td>
+	</tr>
+	<tr>
+		<td id="weathertitle">Sunset:</td>
+		<td id="weathervalue">^vst145^</td>
+        	<td id="weathertitle">Moonset:</td>
+        	<td id="weathervalue">^vst147^</td>
+        </tr>
+        <tr>
+		<td id="weathertitle">Moon Phase:</td>
+		<td id="weathervalue">^moon_percent^</td>
+		<td id="weather" style="background-color: #000000><img src="http://www.wunderground.com/autoasp/downloads/moon/moon^moon_day^.gif" /></td>
+		<td id="weather" colspan="2"><a href="http://www.wunderground.com/sky/ShowSky.asp?TheLat=^wslat^&amp;TheLon=^wslong^&amp;TimeZoneName=^forecast_tzname^">Star Chart...</a></td>
+        </tr>
+        <tr>
+       		<th id="weatherhead" colspan="4">Rainfall Totals</th>
+       </tr>
+       <tr>
+       		<td id="weathertitle">Hourly Rain:</td>
+       		<td id="weathervalue">^vxv122^ ^uni122^</td>
+       		<td id="weathertitle">Monthly Rain:</td>
+       		<td id="weathervalue">^vxv129^ ^uni129^</td>
+       </tr>
+       <tr>
+       		<td id="weathertitle">Daily Rain:</td>
+       		<td id="weathervalue">^vxv121^ ^uni121^</td>
+       		<td id="weathertitle">Yearly Rain:</td>
+       		<td id="weathervalue">^vxv009^ ^uni009^</td>
+       </tr>
+       <tr>
+		<td id="weatherfooter" colspan="4"><a href="http://www.ambientsw.com">Updated Automatically by Ambient Software's Virtual Weather Station&nbsp; ^vervws^</a><br>
+     		<u>Disclaimer:</u> Never make important decisions based on this information or any weather information obtained from the Internet</td>
+	</tr>
+  </tbody>
+ </table>
+</div>
+<div id="footer">
+		<div class="footnav">
+		</div>
+		<div class="copyright">
+		<p>&copy; 2009 <a href="http://www.hudsondarling.net">HudsonDarling.net</a> | Original template by <a href="http://demusdesign.com">DemusDesign</a></p>
+		</div>
+</div>
+</body>
+
+</html>
