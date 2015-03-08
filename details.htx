@@ -1,0 +1,864 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Latham Weather</title>
+<link rel="stylesheet" type="text/css" href="../grids2.css" />
+<link rel="stylesheet" type="text/css" href="../cssmenu.css" />
+<link rel="stylesheet" type="text/css" href="../styles.css" />
+
+</head>
+<body>
+<div id="wrap">
+	<div id="hd">
+		<div id="top">
+			<div class="topnav">
+			</div>
+			<h1>Latham Weather</h1><br />
+			<h2>"A rainy day is the perfect time for a walk in the woods" - Rachel Carson</h2>
+		</div>
+		<div class="menu">
+
+<ul>
+<li><a href="http://weather.hudsondarling.net/index.htm">Home<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/about.htm">About this website</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">At a Glance<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/international.htm">Summary</a></li>
+	<li><a href="http://weather.hudsondarling.net/wx.htm">Graphs and Dials</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Details<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/details.htm">Today</a></li>
+	<li><a href="http://weather.hudsondarling.net/daily.htm">YTD</a></li>
+	<li><a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=I90580966">Historical</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">ACT Weather<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="http://weather.hudsondarling.net/actforecast.htm">ACT Forecast</a></li>
+	<li><a href="http://weather.hudsondarling.net/actradar.htm">ACT Radar</a></li>
+	<li><a href="#"></a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+<li><a href="#">Links<!--[if IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+	<li><a href="#">station 1</a></li>
+	<li><a href="#">station 2</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+</div>
+</div>
+<div>
+<table id="weather">
+  <caption id="weather">
+    ^wslocation^ Current Weather Conditions [Select Refresh to Update]
+  </caption>
+  <thead id="weather">
+  <tr id="weather">
+    <th id="weathertop" colspan="6">Current Conditions</td>
+    <th id="weathertop" colspan="6">Almanac</td>
+  </tr>
+  <tr id="weather">
+    <td id="weathertop" colspan="6">
+    Last Updated: ^vst143^ on ^vst142^<br>
+    Outside Temperature: ^vxv007^ ^uni007^<br>
+    Today's High: ^vhi007^ ^uni007^ at ^vht007^ <br>
+    Lo: ^vlo007^ ^uni007^ at ^vlt007^<br>
+    Barometric Trend: ^vvr008^</td>
+    <td id="weathertop" colspan="6">
+    Sunrise : ^vst144^<br>
+    Sunset: ^vst145^<br>
+    Moonrise: ^vst146^<br>
+    Moonset: ^vst147^<br>
+    Moon Phase: ^vxv128^
+    </td>
+  </tr>
+  <tr id="weather">
+  <td></td>
+  </tr>
+  </thead>
+  <tbody id="weather">
+  <tr>
+    <th id="weather"></th>
+    <th id="weather">Value</th>
+    <th id="weather">High</th>
+    <th id="weather">Time</th>
+    <th id="weather">Low</th>
+    <th id="weather">Time</th>
+    <th id="weather">Average</th>
+    <th id="weather">Rate</th>
+    <th id="weather">Rate Hi</th>
+    <th id="weather">Time</th>
+    <th id="weather">Rate Lo</th>
+    <th id="weather">Time</th>
+  </tr>
+  <tr>
+    <th id="weather">Wind Direction</th>
+    <td id="weather">^vxv001^</td>
+    <td id="weather">^vhi001^</td>
+    <td id="weather">^vht001^</td>
+    <td id="weather">^vlo001^</td>
+    <td id="weather">^vlt001^</td>
+    <td id="weather">^vva001^</td>
+    <td id="weather">^vvr001^</td>
+    <td id="weather">^vrh001^</td>
+    <td id="weather">^vrt001^</td>
+    <td id="weather">^vrl001^</td>
+    <td id="weather">^vrs001^</td>
+  </tr>
+  <tr>
+    <th id="weather">Wind Speed</th>
+    <td id="weather">^vxv002^</td>
+    <td id="weather">^vhi002^</td>
+    <td id="weather">^vht002^</td>
+    <td id="weather">^vlo002^</td>
+    <td id="weather">^vlt002^</td>
+    <td id="weather">^vva002^</td>
+    <td id="weather">^vvr002^</td>
+    <td id="weather">^vrh002^</td>
+    <td id="weather">^vrt002^</td>
+    <td id="weather">^vrl002^</td>
+    <td id="weather">^vrs002^</td>
+  </tr>
+  <tr>
+    <th id="weather">Gust</th>
+    <td id="weather">^vxv003^</td>
+    <td id="weather">^vhi003^</td>
+    <td id="weather">^vht003^</td>
+    <td id="weather">^vlo003^</td>
+    <td id="weather">^vlt003^</td>
+    <td id="weather">^vva003^</td>
+    <td id="weather">^vvr003^</td>
+    <td id="weather">^vrh003^</td>
+    <td id="weather">^vrt003^</td>
+    <td id="weather">^vrl003^</td>
+    <td id="weather">^vrs003^</td>
+  </tr>
+  <tr>
+    <th id="weather">In Humidity</th>
+    <td id="weather">^vxv004^</td>
+    <td id="weather">^vhi004^</td>
+    <td id="weather">^vht004^</td>
+    <td id="weather">^vlo004^</td>
+    <td id="weather">^vlt004^</td>
+    <td id="weather">^vva004^</td>
+    <td id="weather">^vvr004^</td>
+    <td id="weather">^vrh004^</td>
+    <td id="weather">^vrt004^</td>
+    <td id="weather">^vrl004^</td>
+    <td id="weather">^vrs004^</td>
+  </tr>
+  <tr>
+    <th id="weather">Out Humidity</th>
+    <td id="weather">^vxv005^</td>
+    <td id="weather">^vhi005^</td>
+    <td id="weather">^vht005^</td>
+    <td id="weather">^vlo005^</td>
+    <td id="weather">^vlt005^</td>
+    <td id="weather">^vva005^</td>
+    <td id="weather">^vvr005^</td>
+    <td id="weather">^vrh005^</td>
+    <td id="weather">^vrt005^</td>
+    <td id="weather">^vrl005^</td>
+    <td id="weather">^vrs005^</td>
+  </tr>
+  <tr>
+    <th id="weather">In Temp</th>
+    <td id="weather">^vxv006^</td>
+    <td id="weather">^vhi006^</td>
+    <td id="weather">^vht006^</td>
+    <td id="weather">^vlo006^</td>
+    <td id="weather">^vlt006^</td>
+    <td id="weather">^vva006^</td>
+    <td id="weather">^vvr006^</td>
+    <td id="weather">^vrh006^</td>
+    <td id="weather">^vrt006^</td>
+    <td id="weather">^vrl006^</td>
+    <td id="weather">^vrs006^</td>
+  </tr>
+  <tr>
+    <th id="weather">Out Temp</th>
+    <td id="weather">^vxv007^</td>
+    <td id="weather">^vhi007^</td>
+    <td id="weather">^vht007^</td>
+    <td id="weather">^vlo007^</td>
+    <td id="weather">^vlt007^</td>
+    <td id="weather">^vva007^</td>
+    <td id="weather">^vvr007^</td>
+    <td id="weather">^vrh007^</td>
+    <td id="weather">^vrt007^</td>
+    <td id="weather">^vrl007^</td>
+    <td id="weather">^vrs007^</td>
+  </tr>
+  <tr>
+    <th id="weather">Barometer</th>
+    <td id="weather">^vxv008^</td>
+    <td id="weather">^vhi008^</td>
+    <td id="weather">^vht008^</td>
+    <td id="weather">^vlo008^</td>
+    <td id="weather">^vlt008^</td>
+    <td id="weather">^vva008^</td>
+    <td id="weather">^vvr008^</td>
+    <td id="weather">^vrh008^</td>
+    <td id="weather">^vrt008^</td>
+    <td id="weather">^vrl008^</td>
+    <td id="weather">^vrs008^</td>
+  </tr>
+  <tr>
+    <th id="weather">Rain</th>
+    <td id="weather">^vxv009^</td>
+    <td id="weather">^vhi009^</td>
+    <td id="weather">^vht009^</td>
+    <td id="weather">^vlo009^</td>
+    <td id="weather">^vlt009^</td>
+    <td id="weather">^vva009^</td>
+    <td id="weather">^vvr009^</td>
+    <td id="weather">^vrh009^</td>
+    <td id="weather">^vrt009^</td>
+    <td id="weather">^vrl009^</td>
+    <td id="weather">^vrs009^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 1 Temp</th>
+    <td id="weather">^vxv010^</td>
+    <td id="weather">^vhi010^</td>
+    <td id="weather">^vht010^</td>
+    <td id="weather">^vlo010^</td>
+    <td id="weather">^vlt010^</td>
+    <td id="weather">^vva010^</td>
+    <td id="weather">^vvr010^</td>
+    <td id="weather">^vrh010^</td>
+    <td id="weather">^vrt010^</td>
+    <td id="weather">^vrl010^</td>
+    <td id="weather">^vrs010^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 1 Hum</th>
+    <td id="weather">^vxv011^</td>
+    <td id="weather">^vhi011^</td>
+    <td id="weather">^vht011^</td>
+    <td id="weather">^vlo011^</td>
+    <td id="weather">^vlt011^</td>
+    <td id="weather">^vva011^</td>
+    <td id="weather">^vvr011^</td>
+    <td id="weather">^vrh011^</td>
+    <td id="weather">^vrt011^</td>
+    <td id="weather">^vrl011^</td>
+    <td id="weather">^vrs011^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 2 Temp</th>
+    <td id="weather">^vxv012^</td>
+    <td id="weather">^vhi012^</td>
+    <td id="weather">^vht012^</td>
+    <td id="weather">^vlo012^</td>
+    <td id="weather">^vlt012^</td>
+    <td id="weather">^vva012^</td>
+    <td id="weather">^vvr012^</td>
+    <td id="weather">^vrh012^</td>
+    <td id="weather">^vrt012^</td>
+    <td id="weather">^vrl012^</td>
+    <td id="weather">^vrs012^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 2 Hum</th>
+    <td id="weather">^vxv013^</td>
+    <td id="weather">^vhi013^</td>
+    <td id="weather">^vht013^</td>
+    <td id="weather">^vlo013^</td>
+    <td id="weather">^vlt013^</td>
+    <td id="weather">^vva013^</td>
+    <td id="weather">^vvr013^</td>
+    <td id="weather">^vrh013^</td>
+    <td id="weather">^vrt013^</td>
+    <td id="weather">^vrl013^</td>
+    <td id="weather">^vrs013^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 3 Temp</th>
+    <td id="weather">^vxv014^</td>
+    <td id="weather">^vhi014^</td>
+    <td id="weather">^vht014^</td>
+    <td id="weather">^vlo014^</td>
+    <td id="weather">^vlt014^</td>
+    <td id="weather">^vva014^</td>
+    <td id="weather">^vvr014^</td>
+    <td id="weather">^vrh014^</td>
+    <td id="weather">^vrt014^</td>
+    <td id="weather">^vrl014^</td>
+    <td id="weather">^vrs014^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 3 Hum</th>
+    <td id="weather">^vxv015^</td>
+    <td id="weather">^vhi015^</td>
+    <td id="weather">^vht015^</td>
+    <td id="weather">^vlo015^</td>
+    <td id="weather">^vlt015^</td>
+    <td id="weather">^vva015^</td>
+    <td id="weather">^vvr015^</td>
+    <td id="weather">^vrh015^</td>
+    <td id="weather">^vrt015^</td>
+    <td id="weather">^vrl015^</td>
+    <td id="weather">^vrs015^</td>
+  </tr>
+  <tr>
+    <th id="weather">ET</th>
+    <td id="weather">^vxv016^</td>
+    <td id="weather">^vhi016^</td>
+    <td id="weather">^vht016^</td>
+    <td id="weather">^vlo016^</td>
+    <td id="weather">^vlt016^</td>
+    <td id="weather">^vva016^</td>
+    <td id="weather">^vvr016^</td>
+    <td id="weather">^vrh016^</td>
+    <td id="weather">^vrt016^</td>
+    <td id="weather">^vrl016^</td>
+    <td id="weather">^vrs016^</td>
+  </tr>
+  <tr>
+    <th id="weather">UV Index</th>
+    <td id="weather">^vxv017^</td>
+    <td id="weather">^vhi017^</td>
+    <td id="weather">^vht017^</td>
+    <td id="weather">^vlo017^</td>
+    <td id="weather">^vlt017^</td>
+    <td id="weather">^vva017^</td>
+    <td id="weather">^vvr017^</td>
+    <td id="weather">^vrh017^</td>
+    <td id="weather">^vrt017^</td>
+    <td id="weather">^vrl017^</td>
+    <td id="weather">^vrs017^</td>
+  </tr>
+  <tr>
+    <th id="weather">Solar</th>
+    <td id="weather">^vxv018^</td>
+    <td id="weather">^vhi018^</td>
+    <td id="weather">^vht018^</td>
+    <td id="weather">^vlo018^</td>
+    <td id="weather">^vlt018^</td>
+    <td id="weather">^vva018^</td>
+    <td id="weather">^vvr018^</td>
+    <td id="weather">^vrh018^</td>
+    <td id="weather">^vrt018^</td>
+    <td id="weather">^vrl018^</td>
+    <td id="weather">^vrs018^</td>
+  </tr>
+  <tr>
+    <th id="weather">Wind Chill</th>
+    <td id="weather">^vxv019^</td>
+    <td id="weather">^vhi019^</td>
+    <td id="weather">^vht019^</td>
+    <td id="weather">^vlo019^</td>
+    <td id="weather">^vlt019^</td>
+    <td id="weather">^vva019^</td>
+    <td id="weather">^vvr019^</td>
+    <td id="weather">^vrh019^</td>
+    <td id="weather">^vrt019^</td>
+    <td id="weather">^vrl019^</td>
+    <td id="weather">^vrs019^</td>
+  </tr>
+  <tr>
+    <th id="weather">In Heat Index</th>
+    <td id="weather">^vxv020^</td>
+    <td id="weather">^vhi020^</td>
+    <td id="weather">^vht020^</td>
+    <td id="weather">^vlo020^</td>
+    <td id="weather">^vlt020^</td>
+    <td id="weather">^vva020^</td>
+    <td id="weather">^vvr020^</td>
+    <td id="weather">^vrh020^</td>
+    <td id="weather">^vrt020^</td>
+    <td id="weather">^vrl020^</td>
+    <td id="weather">^vrs020^</td>
+  </tr>
+  <tr>
+    <th id="weather">Heat Index</th>
+    <td id="weather">^vxv021^</td>
+    <td id="weather">^vhi021^</td>
+    <td id="weather">^vht021^</td>
+    <td id="weather">^vlo021^</td>
+    <td id="weather">^vlt021^</td>
+    <td id="weather">^vva021^</td>
+    <td id="weather">^vvr021^</td>
+    <td id="weather">^vrh021^</td>
+    <td id="weather">^vrt021^</td>
+    <td id="weather">^vrl021^</td>
+    <td id="weather">^vrs021^</td>
+  </tr>
+  <tr>
+    <th id="weather">Dew Point</th>
+    <td id="weather">^vxv022^</td>
+    <td id="weather">^vhi022^</td>
+    <td id="weather">^vht022^</td>
+    <td id="weather">^vlo022^</td>
+    <td id="weather">^vlt022^</td>
+    <td id="weather">^vva022^</td>
+    <td id="weather">^vvr022^</td>
+    <td id="weather">^vrh022^</td>
+    <td id="weather">^vrt022^</td>
+    <td id="weather">^vrl022^</td>
+    <td id="weather">^vrs022^</td>
+  </tr>
+  <tr>
+    <th id="weather">Barom Sea-level</th>
+    <td id="weather">^vxv023^</td>
+    <td id="weather">^vhi023^</td>
+    <td id="weather">^vht023^</td>
+    <td id="weather">^vlo023^</td>
+    <td id="weather">^vlt023^</td>
+    <td id="weather">^vva023^</td>
+    <td id="weather">^vvr023^</td>
+    <td id="weather">^vrh023^</td>
+    <td id="weather">^vrt023^</td>
+    <td id="weather">^vrl023^</td>
+    <td id="weather">^vrs023^</td>
+  </tr>
+  <tr>
+    <td id="tablegap"></td>
+  </tr>
+  <tr>
+    <th id="weather">Parameter</th>
+    <th id="weather">Month High</th>
+    <th id="weather">Date</th>
+    <th id="weather">Month Low</th>
+    <th id="weather">Date</th>
+    <th id="weather">Year High</th>
+    <th id="weather">Date</th>
+    <th id="weather">Year Low</th>
+    <th id="weather">Date</th>
+    <th id="weather">Yesterday High</th>
+    <th id="weather">Yesterday Low</th>
+    <th id="weather">24 Hour Difference</th>
+  </tr>
+  <tr>
+    <th id="weather">Wind Direction</th>
+    <td id="weather">^vmh001^</td>
+    <td id="weather">^vmd001^</td>
+    <td id="weather">^vml001^</td>
+    <td id="weather">^vme001^</td>
+    <td id="weather">^vyh001^</td>
+    <td id="weather">^vyd001^</td>
+    <td id="weather">^vyl001^</td>
+    <td id="weather">^vye001^</td>
+    <td id="weather">^vzh001^</td>
+    <td id="weather">^vzl001^</td>
+    <td id="weather">^vdv001^</td>
+  </tr>
+  <tr>
+    <th id="weather">Wind Speed</th>
+    <td id="weather">^vmh002^</td>
+    <td id="weather">^vmd002^</td>
+    <td id="weather">^vml002^</td>
+    <td id="weather">^vme002^</td>
+    <td id="weather">^vyh002^</td>
+    <td id="weather">^vyd002^</td>
+    <td id="weather">^vyl002^</td>
+    <td id="weather">^vye002^</td>
+    <td id="weather">^vzh002^</td>
+    <td id="weather">^vzl002^</td>
+    <td id="weather">^vdv002^</td>
+  </tr>
+  <tr>
+    <th id="weather">Gust</th>
+    <td id="weather">^vmh003^</td>
+    <td id="weather">^vmd003^</td>
+    <td id="weather">^vml003^</td>
+    <td id="weather">^vme003^</td>
+    <td id="weather">^vyh003^</td>
+    <td id="weather">^vyd003^</td>
+    <td id="weather">^vyl003^</td>
+    <td id="weather">^vye003^</td>
+    <td id="weather">^vzh003^</td>
+    <td id="weather">^vzl003^</td>
+    <td id="weather">^vdv003^</td>
+  </tr>
+  <tr>
+    <th id="weather">In Humidity</th>
+    <td id="weather">^vmh004^</td>
+    <td id="weather">^vmd004^</td>
+    <td id="weather">^vml004^</td>
+    <td id="weather">^vme004^</td>
+    <td id="weather">^vyh004^</td>
+    <td id="weather">^vyd004^</td>
+    <td id="weather">^vyl004^</td>
+    <td id="weather">^vye004^</td>
+    <td id="weather">^vzh004^</td>
+    <td id="weather">^vzl004^</td>
+    <td id="weather">^vdv004^</td>
+  </tr>
+  <tr>
+    <th id="weather">Out Humidity</th>
+    <td id="weather">^vmh005^</td>
+    <td id="weather">^vmd005^</td>
+    <td id="weather">^vml005^</td>
+    <td id="weather">^vme005^</td>
+    <td id="weather">^vyh005^</td>
+    <td id="weather">^vyd005^</td>
+    <td id="weather">^vyl005^</td>
+    <td id="weather">^vye005^</td>
+    <td id="weather">^vzh005^</td>
+    <td id="weather">^vzl005^</td>
+    <td id="weather">^vdv005^</td>
+  </tr>
+  <tr>
+    <th id="weather">In Temp</th>
+    <td id="weather">^vmh006^</td>
+    <td id="weather">^vmd006^</td>
+    <td id="weather">^vml006^</td>
+    <td id="weather">^vme006^</td>
+    <td id="weather">^vyh006^</td>
+    <td id="weather">^vyd006^</td>
+    <td id="weather">^vyl006^</td>
+    <td id="weather">^vye006^</td>
+    <td id="weather">^vzh006^</td>
+    <td id="weather">^vzl006^</td>
+    <td id="weather">^vdv006^</td>
+  </tr>
+  <tr>
+    <th id="weather">Out Temp</th>
+    <td id="weather">^vmh007^</td>
+    <td id="weather">^vmd007^</td>
+    <td id="weather">^vml007^</td>
+    <td id="weather">^vme007^</td>
+    <td id="weather">^vyh007^</td>
+    <td id="weather">^vyd007^</td>
+    <td id="weather">^vyl007^</td>
+    <td id="weather">^vye007^</td>
+    <td id="weather">^vzh007^</td>
+    <td id="weather">^vzl007^</td>
+    <td id="weather">^vdv007^</td>
+  </tr>
+  <tr>
+    <th id="weather">Barometer</th>
+    <td id="weather">^vmh008^</td>
+    <td id="weather">^vmd008^</td>
+    <td id="weather">^vml008^</td>
+    <td id="weather">^vme008^</td>
+    <td id="weather">^vyh008^</td>
+    <td id="weather">^vyd008^</td>
+    <td id="weather">^vyl008^</td>
+    <td id="weather">^vye008^</td>
+    <td id="weather">^vzh008^</td>
+    <td id="weather">^vzl008^</td>
+    <td id="weather">^vdv008^</td>
+  </tr>
+  <tr>
+    <th id="weather">Rain</th>
+    <td id="weather">^vmh009^</td>
+    <td id="weather">^vmd009^</td>
+    <td id="weather">^vml009^</td>
+    <td id="weather">^vme009^</td>
+    <td id="weather">^vyh009^</td>
+    <td id="weather">^vyd009^</td>
+    <td id="weather">^vyl009^</td>
+    <td id="weather">^vye009^</td>
+    <td id="weather">^vzh009^</td>
+    <td id="weather">^vzl009^</td>
+    <td id="weather">^vdv009^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 1 Temp</th>
+    <td id="weather">^vmh010^</td>
+    <td id="weather">^vmd010^</td>
+    <td id="weather">^vml010^</td>
+    <td id="weather">^vme010^</td>
+    <td id="weather">^vyh010^</td>
+    <td id="weather">^vyd010^</td>
+    <td id="weather">^vyl010^</td>
+    <td id="weather">^vye010^</td>
+    <td id="weather">^vzh010^</td>
+    <td id="weather">^vzl010^</td>
+    <td id="weather">^vdv010^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 1 Hum</th>
+    <td id="weather">^vmh011^</td>
+    <td id="weather">^vmd011^</td>
+    <td id="weather">^vml011^</td>
+    <td id="weather">^vme011^</td>
+    <td id="weather">^vyh011^</td>
+    <td id="weather">^vyd011^</td>
+    <td id="weather">^vyl011^</td>
+    <td id="weather">^vye011^</td>
+    <td id="weather">^vzh011^</td>
+    <td id="weather">^vzl011^</td>
+    <td id="weather">^vdv011^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 2 Temp</th>
+    <td id="weather">^vmh012^</td>
+    <td id="weather">^vmd012^</td>
+    <td id="weather">^vml012^</td>
+    <td id="weather">^vme012^</td>
+    <td id="weather">^vyh012^</td>
+    <td id="weather">^vyd012^</td>
+    <td id="weather">^vyl012^</td>
+    <td id="weather">^vye012^</td>
+    <td id="weather">^vzh012^</td>
+    <td id="weather">^vzl012^</td>
+    <td id="weather">^vdv012^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 2 Hum</th>
+    <td id="weather">^vmh013^</td>
+    <td id="weather">^vmd013^</td>
+    <td id="weather">^vml013^</td>
+    <td id="weather">^vme013^</td>
+    <td id="weather">^vyh013^</td>
+    <td id="weather">^vyd013^</td>
+    <td id="weather">^vyl013^</td>
+    <td id="weather">^vye013^</td>
+    <td id="weather">^vzh013^</td>
+    <td id="weather">^vzl013^</td>
+    <td id="weather">^vdv013^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 3 Temp</th>
+    <td id="weather">^vmh014^</td>
+    <td id="weather">^vmd014^</td>
+    <td id="weather">^vml014^</td>
+    <td id="weather">^vme014^</td>
+    <td id="weather">^vyh014^</td>
+    <td id="weather">^vyd014^</td>
+    <td id="weather">^vyl014^</td>
+    <td id="weather">^vye014^</td>
+    <td id="weather">^vzh014^</td>
+    <td id="weather">^vzl014^</td>
+    <td id="weather">^vdv014^</td>
+  </tr>
+  <tr>
+    <th id="weather">Ch 3 Hum</th>
+    <td id="weather">^vmh015^</td>
+    <td id="weather">^vmd015^</td>
+    <td id="weather">^vml015^</td>
+    <td id="weather">^vme015^</td>
+    <td id="weather">^vyh015^</td>
+    <td id="weather">^vyd015^</td>
+    <td id="weather">^vyl015^</td>
+    <td id="weather">^vye015^</td>
+    <td id="weather">^vzh015^</td>
+    <td id="weather">^vzl015^</td>
+    <td id="weather">^vdv015^</td>
+  </tr>
+  <tr>
+    <th id="weather">ET</th>
+    <td id="weather">^vmh016^</td>
+    <td id="weather">^vmd016^</td>
+    <td id="weather">^vml016^</td>
+    <td id="weather">^vme016^</td>
+    <td id="weather">^vyh016^</td>
+    <td id="weather">^vyd016^</td>
+    <td id="weather">^vyl016^</td>
+    <td id="weather">^vye016^</td>
+    <td id="weather">^vzh016^</td>
+    <td id="weather">^vzl016^</td>
+    <td id="weather">^vdv016^</td>
+  </tr>
+  <tr>
+    <th id="weather">UV Index</th>
+    <td id="weather">^vmh017^</td>
+    <td id="weather">^vmd017^</td>
+    <td id="weather">^vml017^</td>
+    <td id="weather">^vme017^</td>
+    <td id="weather">^vyh017^</td>
+    <td id="weather">^vyd017^</td>
+    <td id="weather">^vyl017^</td>
+    <td id="weather">^vye017^</td>
+    <td id="weather">^vzh017^</td>
+    <td id="weather">^vzl017^</td>
+    <td id="weather">^vdv017^</td>
+  </tr>
+  <tr>
+    <th id="weather">Solar</th>
+    <td id="weather">^vmh018^</td>
+    <td id="weather">^vmd018^</td>
+    <td id="weather">^vml018^</td>
+    <td id="weather">^vme018^</td>
+    <td id="weather">^vyh018^</td>
+    <td id="weather">^vyd018^</td>
+    <td id="weather">^vyl018^</td>
+    <td id="weather">^vye018^</td>
+    <td id="weather">^vzh018^</td>
+    <td id="weather">^vzl018^</td>
+    <td id="weather">^vdv018^</td>
+  </tr>
+  <tr>
+    <th id="weather">Wind Chill</th>
+    <td id="weather">^vmh019^</td>
+    <td id="weather">^vmd019^</td>
+    <td id="weather">^vml019^</td>
+    <td id="weather">^vme019^</td>
+    <td id="weather">^vyh019^</td>
+    <td id="weather">^vyd019^</td>
+    <td id="weather">^vyl019^</td>
+    <td id="weather">^vye019^</td>
+    <td id="weather">^vzh019^</td>
+    <td id="weather">^vzl019^</td>
+    <td id="weather">^vdv019^</td>
+  </tr>
+  <tr>
+    <th id="weather">In Heat Index</th>
+    <td id="weather">^vmh020^</td>
+    <td id="weather">^vmd020^</td>
+    <td id="weather">^vml020^</td>
+    <td id="weather">^vme020^</td>
+    <td id="weather">^vyh020^</td>
+    <td id="weather">^vyd020^</td>
+    <td id="weather">^vyl020^</td>
+    <td id="weather">^vye020^</td>
+    <td id="weather">^vzh020^</td>
+    <td id="weather">^vzl020^</td>
+    <td id="weather">^vdv020^</td>
+  </tr>
+  <tr>
+    <th id="weather">Heat Index</th>
+    <td id="weather">^vmh021^</td>
+    <td id="weather">^vmd021^</td>
+    <td id="weather">^vml021^</td>
+    <td id="weather">^vme021^</td>
+    <td id="weather">^vyh021^</td>
+    <td id="weather">^vyd021^</td>
+    <td id="weather">^vyl021^</td>
+    <td id="weather">^vye021^</td>
+    <td id="weather">^vzh021^</td>
+    <td id="weather">^vzl021^</td>
+    <td id="weather">^vdv021^</td>
+  </tr>
+  <tr>
+    <th id="weather">Dew Point</th>
+    <td id="weather">^vmh022^</td>
+    <td id="weather">^vmd022^</td>
+    <td id="weather">^vml022^</td>
+    <td id="weather">^vme022^</td>
+    <td id="weather">^vyh022^</td>
+    <td id="weather">^vyd022^</td>
+    <td id="weather">^vyl022^</td>
+    <td id="weather">^vye022^</td>
+    <td id="weather">^vzh022^</td>
+    <td id="weather">^vzl022^</td>
+    <td id="weather">^vdv022^</td>
+  </tr>
+  <tr>
+    <th id="weather">Barom Sea-level</th>
+    <td id="weather">^vmh023^</td>
+    <td id="weather">^vmd023^</td>
+    <td id="weather">^vml023^</td>
+    <td id="weather">^vme023^</td>
+    <td id="weather">^vyh023^</td>
+    <td id="weather">^vyd023^</td>
+    <td id="weather">^vyl023^</td>
+    <td id="weather">^vye023^</td>
+    <td id="weather">^vzh023^</td>
+    <td id="weather">^vzl023^</td>
+    <td id="weather">^vdv023^</td>
+  </tr>
+  <tr>
+  <td id="tablegap"></td>
+  </tr>
+  <tr>
+    <th id="weather">Press Altitude</th>
+    <td id="weather">^vxv024^</td>
+    <th id="weather">Daily Rain</th>
+    <td id="weather">^vxv121^</td>
+    <th id="weather">Degree Heating</th>
+    <td id="weather">^vxv126^</td>
+    <th id="weather">Monthly Degree Day Cooling</th>
+    <td id="weather">^vxv131^</td>
+    <th id="weather">Heat Index</th>
+    <td id="weather">^vst136^</td>
+    <th id="weather">Beaufort</th>
+    <td id="weather">^vst141^</td>
+  </tr>
+  <tr>
+    <th id="weather">Cloud Base</th>
+    <td id="weather">^vxv025^</td>
+    <th id="weather">Hourly Rain</th>
+    <td id="weather">^vxv122^</td>
+    <th id="weather">Degree Cooling</th>
+    <td id="weather">^vxv127^</td>
+    <th id="weather">Monthly Wind Run</th>
+    <td id="weather">^vxv132^</td>
+    <th id="weather">Comfort Index</th>
+    <td id="weather">^vst137^</td>
+    <td id="weather"></td>
+    <td id="weather"></td>
+  </tr>
+  <tr>
+    <th id="weather">Air Density</th>
+    <td id="weather">^vxv026^</td>
+    <th id="weather">24Hr Rain</th>
+    <td id="weather">^vxv123^</td>
+    <th id="weather">Moon Phase</th>
+    <td id="weather">^vxv128^</td>
+    <th id="weather">Yearly Deg Day Heating</th>
+    <td id="weather">^vxv133^</td>
+    <th id="weather">Forecast</th>
+    <td id="weather">^vst138^</td>
+    <td id="weather"></td>
+    <td id="weather"></td>
+  </tr>
+  <tr>
+    <th id="weather">Virtual Temp</th>
+    <td id="weather">^vxv027^</td>
+    <th id="weather">Rain Rate</th>
+    <td id="weather">^vxv124^</td>
+    <th id="weather">Monthly Rain</th>
+    <td id="weather">^vxv129^</td>
+    <th id="weather">Yearly Degree Day Cooling</th>
+    <td id="weather">^vxv134^</td>
+    <th id="weather">Station Barom Trend</th>
+    <td id="weather">^vst139^</td>
+    <td id="weather"></td>
+    <td id="weather"></td>
+  </tr>
+  <tr>
+    <th id="weather">Vapor Press</th>
+    <td id="weather">^vxv028^</td>
+    <th id="weather">Wind Run</th>
+    <td id="weather">^vxv125^</td>
+    <th id="weather">Monthly Deg Day Heating</th>
+    <td id="weather">^vxv130^</td>
+    <th id="weather">Yearly Wind Run</th>
+    <td id="weather">^vxv135^</td>
+    <th id="weather">Barometer Trend</th>
+    <td id="weather">^vst140^</td>
+    <td id="weather"></td>
+    <td id="weather"></td>
+  </tr>
+  <tr>
+    <td id="weatherfooter" colspan="12"><a href="http://www.ambientsw.com">Updated Automatically by Ambient Software's Virtual Weather Station&nbsp; ^vervws^</a><br>
+    <u>Disclaimer:</u> Never make important decisions based on this information or any weather information
+    obtained from the Internet</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+<div id="footer">
+		<div class="footnav">
+		</div>
+		<div class="copyright">
+		<p>&copy; 2009 <a href="http://www.hudsondarling.net">HudsonDarling.net</a> | Original template by <a href="http://demusdesign.com">DemusDesign</a></p>
+		</div>
+</div>
+</body>
+</html>
